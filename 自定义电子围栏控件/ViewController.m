@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "CustomEraiView.h"
+
+
+@interface ViewController ()<CustomErailDelegate>
+
 
 @end
 
@@ -17,6 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    CustomEraiView *erail = [[CustomEraiView alloc]initWithFrame:CGRectMake(0, 100, 300, 60)];
+    erail.userInteractionEnabled =  YES;
+    erail.delegate = self;
+    
+    [self.view addSubview:erail];
+    
+}
+
+-(void)customErailButtonON:(NSInteger)index
+{
+    NSLog(@"%ld",index);
+    
 }
 
 - (void)didReceiveMemoryWarning {

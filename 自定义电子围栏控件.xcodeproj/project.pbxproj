@@ -14,6 +14,7 @@
 		18E4DDCE1B6C6F4200C8118A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E4DDCD1B6C6F4200C8118A /* Images.xcassets */; };
 		18E4DDD11B6C6F4200C8118A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4DDCF1B6C6F4200C8118A /* LaunchScreen.xib */; };
 		18E4DDDD1B6C6F4200C8118A /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4DDDC1B6C6F4200C8118A /* _________Tests.m */; };
+		18E4DDE81B6C6F6200C8118A /* CustomEraiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4DDE71B6C6F6200C8118A /* CustomEraiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18E4DDD61B6C6F4200C8118A /* 自定义电子围栏控件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义电子围栏控件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E4DDDB1B6C6F4200C8118A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E4DDDC1B6C6F4200C8118A /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		18E4DDE61B6C6F6200C8118A /* CustomEraiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEraiView.h; sourceTree = "<group>"; };
+		18E4DDE71B6C6F6200C8118A /* CustomEraiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEraiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18E4DDC51B6C6F4200C8118A /* AppDelegate.m */,
 				18E4DDC71B6C6F4200C8118A /* ViewController.h */,
 				18E4DDC81B6C6F4200C8118A /* ViewController.m */,
+				18E4DDE61B6C6F6200C8118A /* CustomEraiView.h */,
+				18E4DDE71B6C6F6200C8118A /* CustomEraiView.m */,
 				18E4DDCA1B6C6F4200C8118A /* Main.storyboard */,
 				18E4DDCD1B6C6F4200C8118A /* Images.xcassets */,
 				18E4DDCF1B6C6F4200C8118A /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				18E4DDC91B6C6F4200C8118A /* ViewController.m in Sources */,
 				18E4DDC61B6C6F4200C8118A /* AppDelegate.m in Sources */,
+				18E4DDE81B6C6F6200C8118A /* CustomEraiView.m in Sources */,
 				18E4DDC31B6C6F4200C8118A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
